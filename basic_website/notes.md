@@ -51,7 +51,7 @@ Used to define metadata about the website.
 
 `<meta>` is a basic empty meta tag.
 
-`<meta charset="UTF-8"> sets the character set of the webpage to UTF-8, a common character set for websites.
+`<meta charset="UTF-8">` sets the character set of the webpage to UTF-8, a common character set for websites.
 
 `<meta name="description" content="A basic description of my website">` Sets the description of the website and makes it easier for search engines to find information about the website.
 
