@@ -143,6 +143,23 @@ Linking allows you to link other websites to the webpage.
 
 `<a href="catfile.png">Cat Picture</a>` This links the user to a specific file on the website, it can be any file.
 
+## Images
+
+You can display images on your website using image tags.
+
+`<img src="link_to_image" alt="text if image can't be found"\>` Displays an image from the source, displaying the alt text if the image can't be found. The images can be local or not local.
+
+`<img width="100" height="100" src="link_to_image"\>` Displays an image from the source with a size of 100 pixels in width and 100 pixels in height, or 100 by 100.
+
+It's important to note that you should consider the aspect ratio of the original file as well. HTML will automatically adjust the image file while maintaining the aspect ratio if you only set the width *or* the height.
+
+Images can be combined with links or other tags. For example:
+```HTML
+<a href="link_to_website">
+  <img height="300" src="link_to_image" alt="alt text"\>
+</a>
+```
+
 ## Terminology
 - Tag
 - Container
